@@ -16,11 +16,11 @@ table#keeruline1, table#keeruline1 td{
 }
 table#keeruline2, table#keeruline2 td{
     /*html failis id=lihtne*/
-    width: 50%;
-    border: 2px solid dimgrey;
+    width: 40%;
+    border: 7px solid dimgrey;
     text-align: center; /*teksti joondamine keskele*/
-    padding: 4px; /*vahe tekstist ääreseni*/
-    background-color: lightskyblue;
+    padding: 10px; /*vahe tekstist ääreseni*/
+    background-color: lightsteelblue;
 }
 table#keeruline3, table#keeruline3 td{
     /*html failis id=lihtne*/
@@ -30,3 +30,4 @@ table#keeruline3, table#keeruline3 td{
     padding: 10px; /*vahe tekstist ääreseni*/
     background-color: lightsteelblue;
 }
+table#Iseseisev,table#Iseseise td{}
