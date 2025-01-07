@@ -1,0 +1,32 @@
+div {
+    width: 40%;
+    border: solid 1pt darkred;
+    position:absolute ;
+    left: 15cm;
+    top: 5cm;
+    padding: 2%;
+    border-radius: 60px;
+    font-family: Georgia, Times, serif;
+}
+footer{
+    text-align: center;
+    background-color: crimson;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+header{
+    text-align: center;
+    width: 100%;
+    font-family: Georgia, Times, serif;
+    font-variant: small-caps;
+    letter-spacing: 0.3cm;
+    background-color: indianred;
+}
+img{
+    border: solid 1pt darkred;
+    border-radius: 50%;
+    filter: hue-rotate(90deg);
+
+}
