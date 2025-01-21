@@ -1,0 +1,73 @@
+body{
+    font-family: Georgia, Serif;
+    background-color: darkorange;
+}
+input[type=text]{
+    width: 35%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid orange;
+    border-radius: 15px;
+    background-color: #ecc739;
+    color: orangered;
+}
+/*radio nupud*/
+input[type=radio]{
+    padding: 15px;
+    background-color: coral;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+select{
+    width: 8%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid orange;
+    border-radius: 10px;
+    color: orangered;
+    cursor: pointer;
+}
+input[type=reset], input[type=button]{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid orange;
+    border-radius: 10px;
+    background-color: red;
+    color: yellow;
+    cursor: pointer;
+}
+table{
+    width: 50%;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid brown;
+    margin: 5px;
+}
+td{
+    padding: 10px;
+    text-align: left;
+}
+input [type=checkbox] + label{
+    display: block;
+    width: 50px;
+    height: 32px;
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 32px;
+    cursor: pointer;
+}
+input [type=radio] + label{
+    display: block;
+    width: 32px;
+    height: 32px;
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 32px;
+    cursor: pointer;
+}
